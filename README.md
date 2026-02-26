@@ -11,14 +11,23 @@
 git clone https://github.com/vgomes-p/c-piscine-42.git
 ```
 
-## 2 - Get to the root of the list you want to test
+## 2 - Define all the test from ~/c-piscine-42/TESTERS/EXECS as alias
+### Here are all the test availables:
+```bash
+alias testc00="~/c-piscine-42/TESTERS/EXECS/exec_c00.sh"
+```
+
+#### upcoming tests
+```bash
+alias testc01="~/c-piscine-42/TESTERS/EXECS/exec_c01.sh"
+```
+
+## 3 - Get to the root of the list you want to test
 ```bash
 cd 42_piscine/c00
 ```
 
-## 3 - Call the test file from ~/c-piscine-42/TESTERS/EXECS
-### Here are all the calls availables:
+## 4 - Call the test
 ```bash
-~/c-piscine-42/TESTERS/EXECS/exec_c00.sh
+testc00
 ```
-
